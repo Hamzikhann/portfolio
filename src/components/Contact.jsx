@@ -30,11 +30,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+    console.log("hiihi");
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        `${process.env.REACT_APP_EMAILJS_USERID}`,
+        `${process.env.REACT_APP_EMAILJS_TEMPLATEID}`,
         {
           from_name: form.name,
           to_name: "FutureInno Technologies",
@@ -42,7 +42,7 @@ const Contact = () => {
           to_email: "hamzaqasim.c@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        `${process.env.REACT_APP_EMAILJS_RECEIVERID}`
       )
       .then(
         () => {
