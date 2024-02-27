@@ -42,19 +42,36 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Website Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Native App Development",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Software Development",
+    icon: creator,
   },
   {
-    title: "Content Creator",
+    title: "Mobile App Development",
+    icon: backend,
+  },
+
+  {
+    title: "E-Commerace Development",
+    icon: creator,
+  },
+  {
+    title: "WordPress/Shopify Development",
+    icon: creator,
+  },
+  {
+    title: "UI/UX Design",
+    icon: creator,
+  },
+  {
+    title: "IT-Solutions",
     icon: creator,
   },
 ];
@@ -258,6 +275,27 @@ const projects = [
       },
     ],
     image: tripguide,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Car Rent",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
     source_code_link: "https://github.com/",
   },
 ];
