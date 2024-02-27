@@ -1,9 +1,41 @@
+import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
-import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  const [firstParagraphText, setFirstParagraphText] = useState("");
+  const [secondParagraphText, setSecondParagraphText] = useState("");
+
+  useEffect(() => {
+    const firstParagraph =
+      "Elevate your online presence with bespoke software development, dynamic website solutions, and more.";
+    let index = 0;
+
+    const interval = setInterval(() => {
+      setFirstParagraphText(firstParagraph.substring(0, index));
+      index++;
+
+      if (index > firstParagraph.length) {
+        clearInterval(interval);
+
+        // Start displaying the second paragraph
+        let secondIndex = 0;
+        const secondInterval = setInterval(() => {
+          const secondParagraph =
+            "We help businesses thrive with expert tech solutions. We drive innovation to elevate your digital presence and performance. Experience seamless integration, unmatched support, and transformative solutions. FutureInno - Your partner in digital excellence.";
+          setSecondParagraphText(secondParagraph.substring(0, secondIndex));
+          secondIndex++;
+
+          if (secondIndex > secondParagraph.length) {
+            clearInterval(secondInterval);
+          }
+        }, 20); // Adjust the interval duration as needed
+      }
+    }, 20); // Decreased interval duration for faster display
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,16 +48,19 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className="text-[#915EFF]">Adrian</span>
+            Hi, We are <span className="text-[#915EFF]">FutureInno</span>
           </h1>
+
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop 3D visuals, user <br className="sm:block hidden" />
-            interfaces and web applications
+            <h1>Transform your business.</h1>
+            {firstParagraphText}
+          </p>
+
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            {secondParagraphText}
           </p>
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
