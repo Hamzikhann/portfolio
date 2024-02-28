@@ -30,7 +30,26 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import Zaye from "./Zaye.png"
+import Compare from "./Compare.png"
+import invester from "./invester.png"
+import Manhattan from "./Manhattan.png"
+import Drmeet from "./Drmeet.png"
+import link3 from "./link3.png"
+import Compare from "./Compare.png"
+import Compare from "./Compare.png"
+import Compare from "./Compare.png"
+import Compare from "./Compare.png"
+import Compare from "./Compare.png"
+import Compare from "./Compare.png"
+
 export {
+  Compare,
+  link3,
+  invester,
+  Manhattan,
+  Drmeet,
+  Zaye,
   logo,
   backend,
   creator,
