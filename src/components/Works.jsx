@@ -13,12 +13,12 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
     <div
     // variants={fadeIn("up", "spring", index * 0.5, 0.75)}
     >
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+      <div
+        // options={{
+        //   max: 45,
+        //   scale: 1, 
+        //   speed: 450,
+        // }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
@@ -31,10 +31,10 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src="/src/assets/link3.png"
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
@@ -57,22 +57,22 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
             </p>
           ))}
         </div> */}
-      </Tilt>
+      </div>
     </div>
   );
 };
 
 const Works = () => {
+  console.log(projects)
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div >
         <p className={`${styles.sectionSubText} `}>Our work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
-      </motion.div>
+      </div>
 
       <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.05, 1)}
+        <p
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases our expertise, creativity, and dedication
@@ -80,7 +80,7 @@ const Works = () => {
           with different technologies, and manage projects effectively. we're
           dedicated to driving innovation and achieving unparalleled results for
           our clients.
-        </motion.p>
+        </p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
