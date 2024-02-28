@@ -3,7 +3,7 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { github } from "../assets";
+import { link3 } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -34,7 +34,7 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
               className="bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src="/src/assets/link3.png"
+                src={link3}
                 alt="source code"
                 className="w-1/2 h-1/2 object-contain"
               />
