@@ -16,8 +16,6 @@ import {
   figma,
   docker,
   meta,
-  starbucks,
-  tesla,
   shopify,
   carrent,
   jobit,
@@ -135,7 +133,7 @@ const experiences = [
   {
     title: "Full Stack Development",
 
-    icon: starbucks,
+    icon: javascript,
     iconBg: "#383E56",
     points: [
       "Expertly architecting and developing end-to-end solutions leveraging a wide array of technologies, including front-end frameworks like React.js and back-end technologies such as Node.js.",
@@ -145,7 +143,7 @@ const experiences = [
   },
   {
     title: "Native App Development",
-    icon: tesla,
+    icon: mobile,
     iconBg: "#E6DEDD",
     points: [
       "Crafting immersive mobile experiences through native app development on platforms like iOS and Android.",
@@ -178,114 +176,61 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "Great work, I'm satisfied with the top-notch tech solutions you've provided. Highly recommend!",
     name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
+      "Exceptional tech expertise coupled with personalized support makes Futureinno my top choice every time!",
     name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Zaye Capital Markets",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
+      "We worked on the Zaye Capital Markets website, which is a one-stop shop for investors and business entrepreneurs. We designed and developed the website according to the customer's requirements, which included creating a user-friendly interface, integrating various features such as research on traditional and digital assets, mergers, and acquisition services, and ensuring the website is responsive and works well on all devices.",
+
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://zayecapitalmarkets.com/",
   },
   {
-    name: "Job IT",
+    name: "Compare Broker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+      " Developed a multi-step interface for users to filter and compare brokers based on their specific trading needs (e.g., asset types, account features, regulation). Compare broker is a website which allows you to filter and find the best forex, stocks, commodities, and crypto brokers/exchanges based on your trading needs. Built upon a database which contains some of the best forex, stock, commodities, crypto and multi-asset brokers, our user-friendly interface allows you to select the markets which you want to access and the features which you want in a broker.",
+
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://comparebroker.io/",
   },
   {
-    name: "Trip Guide",
+    name: "My Invester School",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
+      "My Investor School project, a comprehensive platform designed to cater to the specific requirements of investors seeking to enhance their financial knowledge and skills. The website serves as an educational hub for individuals eager to delve into the world of investing. Implemented a secure user authentication system to protect user data and maintain confidentiality. Employed industry-standard security protocols to safeguard against potential threats and vulnerabilities.",
+
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://myinvestorschool.com/",
   },
   {
-    name: "Car Rent",
+    name: "Manhattan Luxury Suite",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
+      "We had the privilege of collaborating on the development of the Manhattan Luxury Suites website, a premier destination for discerning travelers seeking unparalleled luxury and comfort.We tailored the website to meet the specific needs of Manhattan Luxury Suites, ensuring a seamless user experience and intuitive navigation. Our focus included incorporating stunning visuals of the accommodations, highlighting the array of amenities, and providing easy access to booking information.",
+
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.manhattanluxurysuites.co.uk/",
+  },
+  {
+    name: "DrMeet(On going Project)",
+    description:
+      "DrMeet provides Doctors online oppointment system. Through drMeet's emergency feature, patients can swiftly connect with available healthcare providers, enabling timely consultations. Our team is dedicated to crafting a robust platform that prioritizes user experience while addressing critical healthcare needs. The cornerstone of drMeet is its emergency functionality, designed to provide immediate assistance and support during urgent medical situations.",
+
+    image: carrent,
+    source_code_link: "meetdr.netlify.app",
   },
 ];
 
