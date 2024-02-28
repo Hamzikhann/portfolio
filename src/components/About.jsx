@@ -14,7 +14,7 @@ const ServiceCard = ({ index, title, icon }) => (
       className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
     >
       <div
-        options={{
+        options={{ 
           max: 45,
           scale: 1,
           speed: 450,
