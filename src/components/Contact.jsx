@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -26,15 +26,14 @@ const Contact = () => {
       [name]: value,
     });
   };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    console.log("hiihi");
+
     emailjs
       .send(
-        `${process.env.REACT_APP_EMAILJS_USERID}`,
-        `${process.env.REACT_APP_EMAILJS_TEMPLATEID}`,
+        `${import.meta.env.REACT_APP_EMAILJS_USERID}`,
+        `${import.meta.env.REACT_APP_EMAILJS_TEMPLATEID}`,
         {
           from_name: form.name,
           to_name: "FutureInno Technologies",
@@ -42,10 +41,11 @@ const Contact = () => {
           to_email: "hamzaqasim.c@gmail.com",
           message: form.message,
         },
-        `${process.env.REACT_APP_EMAILJS_RECEIVERID}`
+        `${import.meta.env.REACT_APP_EMAILJS_RECEIVERID}`
       )
       .then(
-        () => {
+        (response) => {
+          console.log(response);
           setLoading(false);
           alert("Thank you. I will get back to you as soon as possible.");
 
@@ -114,12 +114,52 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+          <form
+            ref={formRef}
+            onSubmit={handleSubmit}
+            className="mt-12 flex flex-col gap-8"
           >
-            {loading ? "Sending..." : "Send"}
-          </button>
+            <label className="flex flex-col">
+              <span className="text-white font-medium mb-4">Your Name</span>
+              <input
+                type="text"
+                name="name"
+                value={form.name}
+                onChange={handleChange}
+                placeholder="What's your good name?"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+            </label>
+            <label className="flex flex-col">
+              <span className="text-white font-medium mb-4">Your email</span>
+              <input
+                type="email"
+                name="email"
+                value={form.email}
+                onChange={handleChange}
+                placeholder="What's your web address?"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+            </label>
+            <label className="flex flex-col">
+              <span className="text-white font-medium mb-4">Your Message</span>
+              <textarea
+                rows={7}
+                name="message"
+                value={form.message}
+                onChange={handleChange}
+                placeholder="What you want to say?"
+                className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              />
+            </label>
+
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+          </form>
         </form>
       </motion.div>
 
