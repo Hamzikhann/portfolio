@@ -36,12 +36,8 @@ import invester from "./invester.png"
 import Manhattan from "./Manhattan.png"
 import Drmeet from "./Drmeet.png"
 import link3 from "./link3.png"
-import Compare from "./Compare.png"
-import Compare from "./Compare.png"
-import Compare from "./Compare.png"
-import Compare from "./Compare.png"
-import Compare from "./Compare.png"
-import Compare from "./Compare.png"
+
+
 
 export {
   Compare,
