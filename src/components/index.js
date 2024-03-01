@@ -9,9 +9,11 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Count from "./Count";
+import Services from "./Services";
 
 export {
 	Count,
+	Services,
 	Hero,
 	Navbar,
 	About,
