@@ -5,7 +5,7 @@ export default function Count() {
 	const [countUp, setCountUp] = useState(false);
 
 	return (
-		<section className="count-grid-1">
+		<section className="count-grid-1 bg-primary">
 			<ScrollTrigger className="triger" onEnter={() => setCountUp(true)} onExit={() => setCountUp(false)}>
 				<div className="count-grid">
 					<div className="count">
