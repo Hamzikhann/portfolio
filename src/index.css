@@ -157,7 +157,7 @@
 .count-grid-1 {
 	/* background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%); */
 	padding: 7%;
-	border: #8f8d8d 2px solid;
+	/* border: #8f8d8d 2px solid; */
 	margin: 0px 20px 0px 20px;
 	backdrop-filter: blur(10px); /* Adjust the blur intensity as needed */
 	/* background: linear-gradient(to right, #1f1f1f, #000000); */

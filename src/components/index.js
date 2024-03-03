@@ -10,9 +10,15 @@ import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Count from "./Count";
 import Services from "./Services";
+import Footer from "./Footer";
+import ProjectDetail from "./ProjectDetail";
+import Home from "./Home";
 
 
 export {
+	Home,
+	ProjectDetail,
+	Footer,
 	Count,
 	Services,
 	Hero,

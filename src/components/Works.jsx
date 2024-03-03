@@ -1,12 +1,10 @@
 import React from "react";
-import Tilt from "react-tilt";
-import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 
 import { styles } from "../styles";
 import { link3 } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, image, source_code_link }) => {
 	return (
@@ -55,6 +53,11 @@ const ProjectCard = ({ index, name, description, image, source_code_link }) => {
 };
 
 const Works = () => {
+	const navigate = useNavigate();
+
+const onProjectDetail=()=>{
+navigate("/detail")
+}
 	return (
 		<>
 			<div>
@@ -72,7 +75,9 @@ const Works = () => {
 
 			<div className="mt-20 flex flex-wrap gap-7">
 				{projects.map((project, index) => (
+				<button onClick={onProjectDetail}>
 					<ProjectCard key={`project-${index}`} index={index} {...project} />
+				</button>
 				))}
 			</div>
 		</>
