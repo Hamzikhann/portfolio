@@ -28,10 +28,16 @@ const Footer = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M3 4h13a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"
+                    />
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M22 6l-3 3M22 12l-3 3"
                     />
                   </svg>
                   <span>Futureinno.technologies@gmail.com</span>
@@ -49,25 +55,25 @@ const Footer = () => {
                       strokeLinejoin="round"
                       strokeWidth="2"
                       d="M2 7c0-1.1.9-2 2-2h16a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V7z"
-                    ></path>
+                    />
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
                       d="M22 12h-6"
-                    ></path>
+                    />
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
                       d="M22 12h-6"
-                    ></path>
+                    />
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
                       d="M10 12H4"
-                    ></path>
+                    />
                   </svg>
                   <span>+923114554242</span>
                 </div>
@@ -136,9 +142,10 @@ const Footer = () => {
                     type="email"
                     placeholder="Enter your Email Address"
                   />
-                  <button className="mt-5 sm:mt-3 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
+                  <button className="mt-5 sm:mt-3 rounded-full bg-purple-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-purple-700">
                     Subscribe
                   </button>
+
                   {/* <button className="w-1/3 mt-5 sm:mt-3 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
                     <span className="inline-block max-w-full overflow-hidden whitespace-nowrap">
                       Subscribe

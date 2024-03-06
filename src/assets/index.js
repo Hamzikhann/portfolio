@@ -45,6 +45,7 @@ import Financial from "./Financial.png";
 import Food from "./Food.png";
 import Travel from "./Travel.png";
 
+import Mail from "./Mail.svg";
 export {
   Compare,
   link3,
@@ -87,4 +88,5 @@ export {
   Financial,
   Food,
   Travel,
+  Mail,
 };

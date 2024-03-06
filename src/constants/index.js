@@ -224,42 +224,72 @@ const projects = [
   {
     name: "Zaye Capital Markets",
     description:
-      "We worked on the Zaye Capital Markets website, which is a one-stop shop for investors and business entrepreneurs. We designed and developed the website according to the customer's requirements, which included creating a user-friendly interface, integrating various features such as research on traditional and digital assets, mergers, and acquisition services, and ensuring the website is responsive and works well on all devices.",
+      "We worked on the Zaye Capital Markets website, which is a one-stop shop for investors and business entrepreneurs. We designed and developed the website according to the customer's requirements.",
 
     image: Zaye,
     source_code_link: "https://zayecapitalmarkets.com/",
+    client:
+      " Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    challenge:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    solution:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
   },
   {
     name: "Compare Broker",
     description:
-      " Developed a multi-step interface for users to filter and compare brokers based on their specific trading needs (e.g., asset types, account features, regulation). Compare broker is a website which allows you to filter and find the best forex, stocks, commodities, and crypto brokers/exchanges based on your trading needs. Built upon a database which contains some of the best forex, stock, commodities, crypto and multi-asset brokers, our user-friendly interface allows you to select the markets which you want to access and the features which you want in a broker.",
+      " Developed a multi-step interface for users to filter and compare brokers based on their specific trading needs (e.g., asset types, account features, regulation).",
 
     image: Compare,
     source_code_link: "https://comparebroker.io/",
+    client:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    challenge:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    solution:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
   },
   {
     name: "My Invester School",
     description:
-      "My Investor School project, a comprehensive platform designed to cater to the specific requirements of investors seeking to enhance their financial knowledge and skills. The website serves as an educational hub for individuals eager to delve into the world of investing. Implemented a secure user authentication system to protect user data and maintain confidentiality. Employed industry-standard security protocols to safeguard against potential threats and vulnerabilities.",
+      "My Investor School project, a comprehensive platform designed to cater to the specific requirements of investors seeking to enhance their financial knowledge and skills.",
 
     image: invester,
     source_code_link: "https://myinvestorschool.com/",
+    client:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    challenge:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    solution:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
   },
   {
     name: "Manhattan Luxury Suite",
     description:
-      "We had the privilege of collaborating on the development of the Manhattan Luxury Suites website, a premier destination for discerning travelers seeking unparalleled luxury and comfort.We tailored the website to meet the specific needs of Manhattan Luxury Suites, ensuring a seamless user experience and intuitive navigation. Our focus included incorporating stunning visuals of the accommodations, highlighting the array of amenities, and providing easy access to booking information.",
+      "We had the privilege of collaborating on the development of the Manhattan Luxury Suites website, a premier destination for discerning travelers seeking unparalleled luxury and comfort.",
 
     image: Manhattan,
     source_code_link: "https://www.manhattanluxurysuites.co.uk/",
+    client:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    challenge:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    solution:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
   },
   {
     name: "DrMeet(On going Project)",
     description:
-      "DrMeet provides Doctors online oppointment system. Through drMeet's emergency feature, patients can swiftly connect with available healthcare providers, enabling timely consultations. Our team is dedicated to crafting a robust platform that prioritizes user experience while addressing critical healthcare needs. The cornerstone of drMeet is its emergency functionality, designed to provide immediate assistance and support during urgent medical situations.",
+      "DrMeet provides Doctors online oppointment system. Through drMeet's emergency feature, patients can swiftly connect with available healthcare providers, enabling timely consultations.",
 
     image: Drmeet,
     source_code_link: "https://meetdr.netlify.app/",
+    client:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    challenge:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
+    solution:
+      "Following projects showcases our expertise, creativity, and dedication to excellence. It reflects our ability to solve complex problems, work  with different technologies, and manage projects effectively. were   dedicated to driving innovation and achieving unparalleled results for our clients.",
   },
 ];
 
