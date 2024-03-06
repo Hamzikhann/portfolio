@@ -38,7 +38,7 @@ import Drmeet from "./Drmeet.png";
 import link3 from "./link3.png";
 
 import IT from "./IT.png";
-import Techno from "./Techno.png";
+import Techno from "./techno.png";
 import Healthcare from "./Healthcare.png";
 import Online from "./Online.png";
 import Financial from "./Financial.png";
