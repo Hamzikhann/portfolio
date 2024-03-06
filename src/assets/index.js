@@ -30,14 +30,20 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import Zaye from "./Zaye.png"
-import Compare from "./Compare.png"
-import invester from "./invester.png"
-import Manhattan from "./Manhattan.png"
-import Drmeet from "./Drmeet.png"
-import link3 from "./link3.png"
+import Zaye from "./Zaye.png";
+import Compare from "./Compare.png";
+import invester from "./invester.png";
+import Manhattan from "./Manhattan.png";
+import Drmeet from "./Drmeet.png";
+import link3 from "./link3.png";
 
-
+import IT from "./IT.png";
+import Techno from "./Techno.png";
+import Healthcare from "./Healthcare.png";
+import Online from "./Online.png";
+import Financial from "./Financial.png";
+import Food from "./Food.png";
+import Travel from "./Travel.png";
 
 export {
   Compare,
@@ -74,4 +80,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  IT,
+  Techno,
+  Healthcare,
+  Online,
+  Financial,
+  Food,
+  Travel,
 };

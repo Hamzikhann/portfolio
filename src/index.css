@@ -184,3 +184,10 @@
 		display: block;
 	}
 }
+.line-limit-5 {
+	overflow: hidden;
+	max-height: calc(1.2em * 5);
+	/* 1.2em is the line height, change it as needed */
+	line-height: 1.2em;
+	/* Same as the line height above */
+}
