@@ -45,6 +45,8 @@ import Financial from "./Financial.png";
 import Food from "./Food.png";
 import Travel from "./Travel.png";
 
+import Whatsapp from "./Whatsapp.png";
+
 import Mail from "./Mail.svg";
 export {
   Compare,
@@ -89,4 +91,5 @@ export {
   Food,
   Travel,
   Mail,
+  Whatsapp,
 };
