@@ -166,26 +166,26 @@ const technologies = [
     title: "Next Js",
     icon: docker,
   },
-  // {
-  //   name: "flutter",
-  //   title: "Flutter",
-  //   icon: flutter,
-  // },
-  // {
-  //   name: "vue",
-  //   title: "vue js",
-  //   icon: vuejs,
-  // },
-  // {
-  //   name: "swift",
-  //   title: "Swift",
-  //   icon: swift,
-  // },
-  // {
-  //   name: "net",
-  //   title: ".Net",
-  //   icon: net,
-  // },
+  {
+    name: "flutter",
+    title: "Flutter",
+    icon: flutter,
+  },
+  {
+    name: "vue",
+    title: "vue js",
+    icon: vuejs,
+  },
+  {
+    name: "swift",
+    title: "Swift",
+    icon: swift,
+  },
+  {
+    name: "net",
+    title: ".Net",
+    icon: net,
+  },
 ];
 
 const experiences = [
