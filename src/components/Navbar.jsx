@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { menu, close, Future } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -42,7 +42,8 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={Future} alt="logo" className="w-12 h-12 object-contain" />
+
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             FutureInno &nbsp;
             <span className="sm:block hidden">Technologies</span>

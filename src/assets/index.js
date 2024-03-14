@@ -46,6 +46,7 @@ import Food from "./Food.png";
 import Travel from "./Travel.png";
 
 import Whatsapp from "./Whatsapp.png";
+import Future from "./Future.svg";
 
 import Mail from "./Mail.svg";
 export {
@@ -92,4 +93,5 @@ export {
   Travel,
   Mail,
   Whatsapp,
+  Future,
 };

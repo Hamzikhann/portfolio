@@ -1,134 +1,63 @@
 import React from "react";
-import { logo } from "../assets";
+import { Future } from "../assets";
+import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <div>
       <footer className="bg-black dark:bg-gray-900">
         <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
-          <div className="flex">
-            <img src={logo} alt="logo" className="w-12 h-12 object-contain" />
-          </div>
           <div className="mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2 ">
             <div className="mx-auto max-w-sm lg:max-w-none">
-              <p className="mt-4 text-center text-white lg:text-left lg:text-lg dark:text-white">
-                FutureInno Technologies is a software development and consulting
-                company that builds, designs, and helps companies deliver
-                market-leading experiences.
-              </p>
+              <div className="flex items-center mb-6 lg:mb-0">
+                <img src={Future} alt="logo" className="w-24 h-24 mr-4" />
+
+                <p className="text-white text-lg font-light">
+                  FutureInno Technologies is a software development and
+                  consulting company that builds, designs, and helps companies
+                  deliver market-leading experiences.
+                </p>
+              </div>
               <br></br>
-              {/* Email, Phone, and Address */}
               <div className="flex flex-col justify-center items-center lg:items-start gap-2">
                 <div className="flex items-center text-white">
-                  <svg
-                    className="h-6 w-6 text-gray-500 mr-2 dark:text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M3 4h13a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1z"
-                    />
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
-                      d="M22 6l-3 3M22 12l-3 3"
-                    />
-                  </svg>
+                  <FaEnvelope className="text-blue-500 mr-2" />
                   <span>Futureinno.technologies@gmail.com</span>
                 </div>
                 <div className="flex items-center text-white">
-                  <svg
-                    className="h-6 w-6 text-gray-500 mr-2 dark:text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M2 7c0-1.1.9-2 2-2h16a2 2 0 012 2v10a2 2 0 01-2 2H4a2 2 0 01-2-2V7z"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M22 12h-6"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M22 12h-6"
-                    />
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M10 12H4"
-                    />
-                  </svg>
+                  <FaPhone className="text-green-500 mr-2" />
                   <span>+923114554242</span>
                 </div>
                 <div className="flex items-center text-white">
-                  <svg
-                    className="h-6 w-6 text-gray-500 mr-2 dark:text-gray-400"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M7 20l4-16m2 16l4-16M6 9h14M4 15h14"
-                    ></path>
-                  </svg>
+                  <FaMapMarkerAlt className="text-red-500 mr-2" />
                   <span>C Block Valencia Town, Lahore</span>
                 </div>
               </div>
-
               {/* Social Media Icons */}
               <div className="mt-6 flex justify-center gap-4 lg:justify-start">
-                {/* Social media icons go here */}
+                {/* Social media buttons go here */}
+                <a
+                  href="https://www.linkedin.com/company/futureinno-technologies/mycompany/?viewAsMember=true"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white border border-gray-300 rounded-full py-2 px-4"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.instagram.com/futureinno.technologies/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white border border-gray-300 rounded-full py-2 px-4"
+                >
+                  Instagram
+                </a>
               </div>
             </div>
-            {/* <div className="mx-auto max-w-md">
-              <strong className="block text-center text-xl font-bold text-white sm:text-3xl dark:text-white">
-                Let's Transform The Business
-              </strong>
 
-              <form className="mt-6">
-                <div className="relative max-w-lg">
-                  <label className="sr-only" htmlFor="email">
-                    {" "}
-                    Email{" "}
-                  </label>
-
-                  <input
-                    className="w-full rounded-full border-gray-200 bg-gray-100 p-4 pe-32 text-sm font-medium dark:border-gray-700 dark:bg-gray-800 text-white"
-                    id="email"
-                    type="email"
-                    placeholder="Enter your Email Address"
-                  />
-
-                  <button className="absolute end-1 top-1/2 -translate-y-1/2 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
-                    Subscribe
-                  </button>
-                </div>
-              </form>
-            </div> */}
             <div className="mx-auto max-w-md">
               <strong className="block text-center text-xl font-bold text-white sm:text-3xl dark:text-white">
-                Subscribe For Lattest News!
+                Subscribe For Latest News!
               </strong>
 
               <form className="mt-6">
@@ -142,22 +71,16 @@ const Footer = () => {
                     type="email"
                     placeholder="Enter your Email Address"
                   />
-                  <button className="mt-5 sm:mt-3 rounded-full bg-purple-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-purple-700">
+                  <button className="mt-5 sm:mt-3 rounded-full border-purple-600 border-solid bg-purple-600 px-5 py-3 text-sm font-medium text-white transition transition hover:bg-purple-700 hover:border-purple-800">
                     Subscribe
                   </button>
-
-                  {/* <button className="w-1/3 mt-5 sm:mt-3 rounded-full bg-blue-600 px-5 py-3 text-sm font-medium text-white transition hover:bg-blue-700">
-                    <span className="inline-block max-w-full overflow-hidden whitespace-nowrap">
-                      Subscribe
-                    </span>
-                  </button> */}
                 </div>
               </form>
             </div>
           </div>
           <div className="mt-16 border-t border-gray-100 pt-8 dark:border-gray-800">
             <p className="text-center text-xs/relaxed text-white dark:text-white">
-              © FutureInno 2022. All rights reserved.
+              © FutureInno 2024. All rights reserved.
               <br />
             </p>
           </div>

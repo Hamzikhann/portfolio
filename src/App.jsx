@@ -23,6 +23,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+
         <Services />
         <Experience />
 
