@@ -33,6 +33,11 @@ import {
   Financial,
   Food,
   Travel,
+  flutter,
+  angular,
+  vuejs,
+  swift,
+  net,
 } from "../assets";
 
 export const navLinks = [
@@ -118,7 +123,7 @@ const technologies = [
   },
   {
     name: "Redux Toolkit",
-    title: "Redux Toolkit",
+    title: "Python",
     icon: redux,
   },
   {
@@ -142,6 +147,11 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "angular",
+    title: "Angular",
+    icon: angular,
+  },
+  {
     name: "git",
     title: "git",
     icon: git,
@@ -152,10 +162,30 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "docker",
-    title: "docker",
+    name: "Next Js",
+    title: "Next Js",
     icon: docker,
   },
+  // {
+  //   name: "flutter",
+  //   title: "Flutter",
+  //   icon: flutter,
+  // },
+  // {
+  //   name: "vue",
+  //   title: "vue js",
+  //   icon: vuejs,
+  // },
+  // {
+  //   name: "swift",
+  //   title: "Swift",
+  //   icon: swift,
+  // },
+  // {
+  //   name: "net",
+  //   title: ".Net",
+  //   icon: net,
+  // },
 ];
 
 const experiences = [
