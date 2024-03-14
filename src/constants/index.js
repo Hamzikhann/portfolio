@@ -152,16 +152,6 @@ const technologies = [
     icon: angular,
   },
   {
-    name: "git",
-    title: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    title: "figma",
-    icon: figma,
-  },
-  {
     name: "Next Js",
     title: "Next Js",
     icon: docker,
@@ -171,16 +161,7 @@ const technologies = [
     title: "Flutter",
     icon: flutter,
   },
-  {
-    name: "vue",
-    title: "vue js",
-    icon: vuejs,
-  },
-  {
-    name: "swift",
-    title: "Swift",
-    icon: swift,
-  },
+
   {
     name: "net",
     title: ".Net",
