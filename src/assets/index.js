@@ -53,8 +53,23 @@ import Travel from "./Travel.png";
 import Whatsapp from "./Whatsapp.png";
 import Future from "./Future.svg";
 
+import smit from "./smit.png";
+import thrive from "./thrive.png";
+import community from "./community.png";
+import mgt from "./mgt.png";
+import sine from "./sine.png";
+import aliz from "./aliz.png";
+import ximple from "./ximple.png";
+
 import Mail from "./Mail.svg";
 export {
+  sine,
+  smit,
+  thrive,
+  community,
+  mgt,
+  ximple,
+  aliz,
   Compare,
   link3,
   invester,

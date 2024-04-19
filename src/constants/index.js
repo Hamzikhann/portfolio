@@ -38,6 +38,13 @@ import {
   vuejs,
   swift,
   net,
+  sine,
+  smit,
+  aliz,
+  community,
+  mgt,
+  thrive,
+  ximple,
 } from "../assets";
 
 export const navLinks = [
@@ -287,6 +294,104 @@ const projects = [
       "Despite its prestigious reputation, Manhattan Luxury Suites faced stiff competition and the need to enhance its digital presence in a rapidly evolving market. Rising online travel platforms required the company to differentiate itself and streamline its booking process to maintain its edge.",
     solution:
       "To address these challenges, we partnered with Manhattan Luxury Suites to develop a comprehensive strategy focused on enhancing its brand identity, improving customer experience, and leveraging technology to drive growth and profitability. First, we conducted a thorough analysis of the company's brand positioning and target market to identify opportunities for differentiation and expansion. Drawing on our expertise in branding and marketing, we developed a tailored brand strategy that highlighted Manhattan Luxury Suites' unique value proposition and resonated with its target audience. Additionally, we implemented a multi-channel digital marketing campaign to increase visibility and drive traffic to the company's website. By optimizing search engine rankings, launching targeted advertising campaigns, and engaging with customers on social media, we helped Manhattan Luxury Suites attract more qualified leads and increase bookings. Furthermore, we redesigned the company's website to enhance user experience and streamline the booking process. Through intuitive navigation, stunning visuals, and seamless integration with online booking systems, we made it easier for guests to explore available accommodations and make reservations with confidence.",
+  },
+  {
+    name: "SMIT Technology",
+    description:
+      "SMIT Services is a leading provider of Cyber and AI solutions dedicated to fortifying digital security. Their website serves as a platform to showcase their expertise in navigating complex digital landscapes and delivering state-of-the-art technologies to safeguard clients' digital assets. With a focus on innovation and proactive strategies, SMIT Services offers comprehensive solutions tailored to meet the evolving challenges of the digital world.",
+
+    image: smit,
+    source_code_link: "https://smit.services/",
+    client:
+      "SMIT Services is a reputable provider of Cyber and AI solutions, committed to enhancing digital security for clients globally. With a focus on innovation and proactive strategies, SMIT Services delivers state-of-the-art technologies to safeguard clients' digital assets in an ever-evolving digital landscape.",
+    challenge:
+      "The challenge faced by SMIT Services was to address the increasing threats posed by cyberattacks and data breaches in today's digital age. With the rise of sophisticated cyber threats, there was a growing need for advanced solutions to fortify digital security and protect clients' sensitive information from potential risks.",
+    solution:
+      "To tackle the challenge, We developed comprehensive Cyber and AI solutions tailored to the unique needs of each client. Leveraging cutting-edge technologies and proactive strategies, SMIT Services implemented robust security measures to safeguard clients' digital assets against cyber threats. By providing innovative solutions and expert guidance, SMIT Services enabled clients to mitigate risks and maintain the integrity of their digital infrastructure.",
+  },
+  {
+    name: "Thrive Hub",
+    description:
+      "Thrive Hub is an innovative platform dedicated to empowering individuals and businesses to thrive in their respective industries. Their website serves as a central hub for accessing valuable resources, tools, and insights aimed at fostering personal and professional growth. With a focus on collaboration and community-building, Thrive Hub aims to create a supportive ecosystem where individuals can connect, learn, and succeed together.",
+
+    image: thrive,
+    source_code_link: "https://thrive-hub.com/",
+    client:
+      "Thrive Hub is a dynamic platform designed to support personal and professional growth for individuals and businesses alike. With a commitment to fostering collaboration and community-building, Thrive Hub provides valuable resources and tools to empower users to thrive in their respective endeavors.",
+    challenge:
+      "Thrive Hub faced the challenge of addressing the diverse needs of individuals and businesses seeking to enhance their personal and professional growth. With an abundance of information and resources available online, there was a need to create a centralized platform that curated relevant content and fostered meaningful connections among users.",
+    solution:
+      "To address the challenge, We developed a comprehensive platform that serves as a central hub for accessing valuable resources, tools, and insights aimed at fostering personal and professional growth. By curating high-quality content and facilitating connections among users, Thrive Hub creates a supportive ecosystem where individuals can learn, collaborate, and thrive together. Through innovative solutions and a focus on community-building, Thrive Hub empowers users to unlock their full potential and achieve success in their endeavors.",
+  },
+  {
+    name: "Community Hospice Care",
+    description:
+      "Community Hospice & Palliative Care is a compassionate organization dedicated to providing end-of-life care and support to patients and their families. Their website serves as a comprehensive resource hub, offering information about hospice and palliative care services, grief support, and community programs. With a focus on empathy and dignity, Community Hospice & Palliative Care aims to enhance the quality of life for individuals facing serious illness or bereavement.",
+
+    image: community,
+    source_code_link: "https://communityhospicecares.com/",
+    client:
+      "Community Hospice & Palliative Care is a leading provider of compassionate end-of-life care and support services. With a commitment to dignity, respect, and empathy, Community Hospice & Palliative Care strives to enhance the quality of life for patients and their families during challenging times.",
+    challenge:
+      "Community Hospice & Palliative Care faced the challenge of effectively communicating the breadth and depth of their services to individuals and families in need of end-of-life care and support. With sensitive topics such as hospice care and grief support, there was a need to create a website that provided clear and comprehensive information while fostering a sense of empathy and understanding.",
+    solution:
+      "To address the challenge, we developed a user-friendly website for Community Hospice & Palliative Care that served as a comprehensive resource hub for patients, families, and caregivers. By incorporating intuitive navigation and empathetic messaging, we created a platform that provided easy access to information about hospice and palliative care services, grief support resources, and community programs. Through thoughtful design and content creation, we aimed to instill trust and confidence in visitors while offering support and guidance during difficult times.",
+  },
+  {
+    name: "MGT Natural Stone Company",
+    description:
+      "MGT Stone Company is a renowned provider of high-quality natural stone products for construction and architectural projects. Their website serves as a showcase of their extensive product range, including marble, granite, travertine, and limestone. With a focus on craftsmanship and innovation, MGT Stone Company offers custom stone solutions to meet the unique needs of their clients, ranging from residential homeowners to commercial developers and designers.",
+
+    image: mgt,
+    source_code_link: "https://mgtstoneco.com/",
+    client:
+      "MGT Stone Company is a leading supplier of premium natural stone products, specializing in marble, granite, travertine, and limestone. With a commitment to quality craftsmanship and customer satisfaction, MGT Stone Company has established itself as a trusted provider of custom stone solutions for construction and architectural projects worldwide.",
+    challenge:
+      "MGT Stone Company faced the challenge of effectively showcasing their extensive product range and custom stone solutions to potential clients in a visually appealing and user-friendly manner. With a diverse clientele ranging from residential homeowners to commercial developers, there was a need to create a website that catered to the unique needs and preferences of each target audience while maintaining consistency in branding and messaging.",
+    solution:
+      "To address the challenge, we developed a dynamic website for MGT Stone Company that served as a comprehensive showcase of their product range and custom stone solutions. By incorporating visually stunning imagery, intuitive navigation, and detailed product descriptions, we created a platform that provided potential clients with an immersive and informative browsing experience. Additionally, we implemented features such as a project gallery and client testimonials to highlight MGT Stone Company's expertise and track record of delivering exceptional results. Through thoughtful design and strategic content creation, we successfully positioned MGT Stone Company as a premier provider of natural stone products for construction and architectural projects.",
+  },
+  {
+    name: "Shine Wizards",
+    description:
+      "Shine Wizards is a professional cleaning services company dedicated to providing top-quality residential and commercial cleaning solutions. Their website serves as a platform for showcasing their range of services, including house cleaning, office cleaning, carpet cleaning, and more. With a commitment to excellence and customer satisfaction, Shine Wizards aims to create clean and healthy environments for their clients, enhancing their overall well-being and quality of life.",
+
+    image: sine,
+    source_code_link: "https://shinewizards.ca/",
+    client:
+      "Shine Wizards is a trusted provider of professional cleaning services, specializing in residential and commercial cleaning solutions. With a focus on quality, reliability, and customer satisfaction, Shine Wizards is committed to delivering exceptional cleaning results to clients across various industries.",
+    challenge:
+      "Shine Wizards faced the challenge of effectively communicating the breadth and depth of their cleaning services to potential clients while differentiating themselves from competitors in the highly competitive cleaning industry. With diverse cleaning needs and preferences among residential and commercial clients, there was a need to create a website that catered to the unique requirements of each target audience.",
+    solution:
+      "To address the challenge, we developed a user-friendly website for Shine Wizards that served as a comprehensive showcase of their cleaning services. By implementing clear and concise messaging, engaging visuals, and intuitive navigation, we created a platform that effectively communicated Shine Wizards' expertise and commitment to customer satisfaction. Additionally, we incorporated features such as service descriptions, client testimonials, and online booking capabilities to enhance the user experience and streamline the booking process. Through strategic design and content development, we successfully positioned Shine Wizards as a leading provider of professional cleaning services, driving customer engagement and business growth.",
+  },
+  {
+    name: "ALIZ MOTORING WORLD",
+    description:
+      "Aliz Motoring World is a comprehensive online platform dedicated to providing automotive enthusiasts with the latest news, reviews, and insights from the world of motoring. Their website serves as a one-stop destination for car enthusiasts, offering a wide range of content including car reviews, industry news, automotive trends, and more. With a focus on accuracy, reliability, and passion for automobiles, Aliz Motoring World aims to inform and inspire automotive enthusiasts around the globe.",
+
+    image: aliz,
+    source_code_link: "https://alizmotoringworld.com/",
+    client:
+      "Aliz Motoring World is a premier online platform catering to automotive enthusiasts worldwide. With a dedication to providing accurate and insightful content, Aliz Motoring World offers a diverse range of articles, reviews, and news updates from the world of motoring. Whether it's the latest car models, industry trends, or expert opinions, Aliz Motoring World is committed to keeping automotive enthusiasts informed and inspired.",
+    challenge:
+      "Aliz Motoring World faced the challenge of curating engaging and informative content that resonated with automotive enthusiasts while staying relevant in the highly competitive automotive industry. With a vast array of automotive websites and blogs vying for readers' attention, there was a need to differentiate Aliz Motoring World and establish it as a trusted source of automotive news and insights.",
+    solution:
+      "To address the challenge, we implemented a strategic content strategy focused on delivering high-quality, relevant, and engaging content to the target audience. Through in-depth research, expert analysis, and captivating storytelling, we curated a diverse range of articles, reviews, and news updates that catered to the interests and preferences of automotive enthusiasts. Additionally, we leveraged social media and digital marketing channels to expand the reach of Aliz Motoring World and attract a larger audience of automotive enthusiasts. By consistently delivering valuable content and fostering community engagement, we successfully positioned Aliz Motoring World as a leading authority in the world of motoring, driving increased traffic and reader engagement to the website.",
+  },
+  {
+    name: "Ximple",
+    description:
+      "Ximple is a dynamic online platform dedicated to providing innovative solutions for businesses across various industries. Their website serves as a central hub for accessing a wide range of services, including web development, digital marketing, branding, and more. With a focus on creativity, technology, and customer satisfaction, Ximple aims to empower businesses to thrive in the digital age through cutting-edge solutions and strategic partnerships.",
+
+    image: ximple,
+    source_code_link: "https://ximple.uk/",
+    client:
+      "Ximple is a forward-thinking digital agency specializing in web development, digital marketing, and branding services. With a commitment to innovation and excellence, Ximple leverages technology and creativity to help businesses succeed in the digital landscape. Whether it's building custom websites, crafting engaging marketing campaigns, or creating impactful branding strategies, Ximple is dedicated to delivering results that drive business growth and success.",
+    challenge:
+      "Ximple faced the challenge of effectively showcasing their diverse range of services and expertise to potential clients while differentiating themselves in the competitive digital agency market. With an abundance of digital agencies offering similar services, there was a need to create a website that clearly communicated Ximple's unique value proposition and capabilities to potential clients.",
+    solution:
+      "To address the challenge, we developed a modern and user-friendly website for Ximple that effectively showcased their services, expertise, and portfolio of work. By incorporating clear messaging, engaging visuals, and intuitive navigation, we created a platform that highlighted Ximple's commitment to creativity, technology, and customer satisfaction. Additionally, we implemented features such as case studies, client testimonials, and a comprehensive services section to provide visitors with valuable insights into Ximple's capabilities and track record of success. Through strategic design and content development, we successfully positioned Ximple as a trusted partner for businesses seeking innovative digital solutions, driving increased traffic and conversions to the website.",
   },
   {
     name: "DrMeet(On going Project)",
