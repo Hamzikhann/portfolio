@@ -7,11 +7,12 @@ export default defineConfig({
 	envPrefix: "REACT_APP_",
 	plugins: [react(), envCompatible(),
 		replace({
+			preventAssignment: true,
 			values: {
-				'"use client";': '', // Replaces "use client"; with an empty string
+				'"use client";': '', // Replace "use client"; with an empty string
 			},
-			include: ["node_modules/flowbite-react/**/*.js"], // Only applies to flowbite-react module files
-		})
+			include: ["node_modules/flowbite-react/**/*.js"],
+		}),
 		
 	]
 	
