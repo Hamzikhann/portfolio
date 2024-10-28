@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import envCompatible from "vite-plugin-env-compatible";
-import replace from 'vite-plugin-replace';
+import replace from "@rollup/plugin-replace";
 // https://vitejs.dev/config/
 export default defineConfig({
 	envPrefix: "REACT_APP_",
