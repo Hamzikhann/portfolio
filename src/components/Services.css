@@ -1,0 +1,21 @@
+.slick-slider {
+    background-color: #050816 !important;
+  }
+  
+  .slick-slide {
+    background-color: #050816;
+  }
+  
+  .slick-dots li button:before {
+    color: white;
+  }
+  
+  .slick-dots {
+    bottom: -20px;
+  }
+  
+  .slick-prev,
+  .slick-next {
+    display: none !important; 
+  }
+  

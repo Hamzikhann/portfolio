@@ -23,24 +23,20 @@ const App = () => {
           <Hero />
         </div>
         <About />
-
         <Services />
-        <Experience />
-
+        {/* <Experience /> */}
         <Tech />
         <Works />
         <Feedbacks />
-
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
         </div>
-
         <Footer />
       </div>
-      <div class="fixed bottom-0 right-0 p-3 z-50">
+      <div className="fixed bottom-0 right-0 p-3 z-50">
         <a
-          href="http://wa.me/923114554242?text=Hello! Welcome to FutureInno Technologies. Need IT Solutions? Chat with our experts on Whatsapp for quick assistance. We're here to answer your queries and provide top-notch IT services. Let's connect!"
+          href="http://wa.me/4407722107520?text=Hello! Welcome to Cloud design. Need IT Solutions? Chat with our experts on Whatsapp for quick assistance. We're here to answer your queries and provide top-notch IT services. Let's connect!"
           target="_blank"
         >
           <img src={Whatsapp} width="60" alt="Whatsapp icon" />

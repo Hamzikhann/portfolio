@@ -8,7 +8,7 @@ const Hero = () => {
 
 	useEffect(() => {
 		const firstParagraph =
-			"Elevate your online presence with bespoke software development, dynamic website solutions, and more.";
+			"Cloud design Lab  is an innovative AI solutions company dedicated to transforming industries through intelligent automation and personalized user experiences.";
 		let index = 0;
 
 		const interval = setInterval(() => {
@@ -22,7 +22,7 @@ const Hero = () => {
 				let secondIndex = 0;
 				const secondInterval = setInterval(() => {
 					const secondParagraph =
-						"We help businesses thrive with expert tech solutions. We drive innovation to elevate your digital presence and performance. Experience seamless integration, unmatched support, and transformative solutions. FutureInno - Your partner in digital excellence.";
+						" We specialize in cutting-edge AI products that enhance productivity, simplify workflows, and empower businesses to thrive in the digital age.";
 					setSecondParagraphText(secondParagraph.substring(0, secondIndex));
 					secondIndex++;
 
@@ -39,7 +39,7 @@ const Hero = () => {
 	return (
 		<section className={`relative w-full h-screen mx-auto`}>
 			<div
-				className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
+				className={`absolute inset-0 top-[150px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
 			>
 				<div className="flex flex-col justify-center items-center mt-5">
 					<div className="w-5 h-5 rounded-full bg-[#915EFF]" />
@@ -48,11 +48,11 @@ const Hero = () => {
 
 				<div>
 					<h1 className={`${styles.heroHeadText} text-white`}>
-						Hi, We are <span className="text-[#915EFF]">FutureInno</span>
+						Hi, We are <span className="text-[#915EFF]">Cloud design.</span>
 					</h1>
 
 					<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-						<h1>Transform your business.</h1>
+						{/* <h1>Transform your business.</h1> */}
 						{firstParagraphText}
 					</p>
 

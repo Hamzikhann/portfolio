@@ -1,5 +1,5 @@
 import React from "react";
-import { Future } from "../assets";
+import cloud from "/src/assets/cloud.jpeg"
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 const Footer = () => {
@@ -10,34 +10,32 @@ const Footer = () => {
           <div className="mt-5 grid grid-cols-1 gap-8 lg:grid-cols-2 ">
             <div className="mx-auto max-w-sm lg:max-w-none">
               <div className="flex items-center mb-6 lg:mb-0">
-                <img src={Future} alt="logo" className="w-24 h-24 mr-4" />
+                <img src={cloud} alt="logo" className="w-24 h-24 mr-4" />
 
-                <p className="text-white text-lg font-light">
-                  FutureInno Technologies is a software development and
-                  consulting company that builds, designs, and helps companies
-                  deliver market-leading experiences.
+                <p className="text-white text-base font-light">
+                Cloud Design Lab is a cutting-edge cloud design lab specializing in AI software development and consulting. We design, build, and empower companies to deliver innovative, market-leading experiences through intelligent and scalable solutions.
                 </p>
               </div>
-              <br></br>
+              <br></br><br />
               <div className="flex flex-col justify-center items-center lg:items-start gap-2">
                 <div className="flex items-center text-white">
                   <FaEnvelope className="text-blue-500 mr-2" />
-                  <span>Futureinno.technologies@gmail.com</span>
+                  <span>munir@clouddesignlab.com</span>
                 </div>
                 <div className="flex items-center text-white">
                   <FaPhone className="text-green-500 mr-2" />
-                  <span>+923114554242</span>
+                  <span>+07722107520</span>
                 </div>
                 <div className="flex items-center text-white">
                   <FaMapMarkerAlt className="text-red-500 mr-2" />
-                  <span>C Block Valencia Town, Lahore</span>
+                  <span>Address G15, Westlink House, 981 Great West Road, Brentford, TW8 9DN</span>
                 </div>
               </div>
               {/* Social Media Icons */}
               <div className="mt-6 flex justify-center gap-4 lg:justify-start">
                 {/* Social media buttons go here */}
                 <a
-                  href="https://www.linkedin.com/company/futureinno-technologies/mycompany/?viewAsMember=true"
+                  href="https://www.linkedin.com/company/cloud-design-lab-uk/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white border border-gray-300 rounded-full py-2 px-4"
@@ -45,7 +43,7 @@ const Footer = () => {
                   LinkedIn
                 </a>
                 <a
-                  href="https://www.instagram.com/futureinno.technologies/"
+                  href="https://www.instagram.com/clouddesignlab/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-white border border-gray-300 rounded-full py-2 px-4"

@@ -1,5 +1,5 @@
 import React from "react";
-import Tilt from "react-tilt";
+// import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -58,7 +58,7 @@ const About = () => {
         Industries We Serve
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap justify-center gap-10">
         {industries.map((industry, index) => (
           <ServiceCard key={industry.title} index={index} {...industry} />
         ))}

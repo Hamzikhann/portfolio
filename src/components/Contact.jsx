@@ -36,9 +36,9 @@ const Contact = () => {
         `${import.meta.env.REACT_APP_EMAILJS_TEMPLATEID}`,
         {
           from_name: form.name,
-          to_name: "FutureInno Technologies",
+          to_name: "Cloud Design Lab.",
           from_email: form.email,
-          to_email: "hamzaqasim.c@gmail.com",
+          to_email: "munir@clouddesignlab.com",
           message: form.message,
         },
         `${import.meta.env.REACT_APP_EMAILJS_RECEIVERID}`
